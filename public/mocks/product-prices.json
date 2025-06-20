@@ -1,0 +1,22 @@
+[
+  {
+    "productId": "123",
+    "price": 10.99,
+    "currency": "EUR"
+  },
+  {
+    "productId": "456",
+    "price": 12.99,
+    "currency": "EUR"
+  },
+  {
+    "productId": "789",
+    "price": 14.99,
+    "currency": "EUR"
+  },
+  {
+    "productId": "101112",
+    "price": 16.99,
+    "currency": "EUR"
+  }
+]

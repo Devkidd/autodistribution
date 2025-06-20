@@ -1,0 +1,38 @@
+[
+  {
+    "id": "123",
+    "name": "Filtre à huile",
+    "description": "Pour moteurs diesel",
+    "image": "https://picsum.photos/64",
+    "category": "Filtration",
+    "brand": "Renault",
+    "logo": "https://picsum.photos/100/50"
+  },
+  {
+    "id": "456",
+    "name": "Filtre à air",
+    "description": "Standard Renault",
+    "image": "https://picsum.photos/64",
+    "category": "Filtration",
+    "brand": "Citroën",
+    "logo": "https://picsum.photos/100/50"
+  },
+  {
+    "id": "789",
+    "name": "Filtre à carburant",
+    "description": "Pour moteurs essence",
+    "image": "https://picsum.photos/64",
+    "category": "Filtration",
+    "brand": "peugeot",
+    "logo": "https://picsum.photos/100/50"
+  },
+  {
+    "id": "101112",
+    "name": "Filtre habitacle",
+    "description": "Filtre à pollen pour habitacles",
+    "image": "https://picsum.photos/64",
+    "category": "Filtration",
+    "brand": "Tesla",
+    "logo": "https://picsum.photos/100/50"
+  }
+]
