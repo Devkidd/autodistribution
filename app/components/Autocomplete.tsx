@@ -52,7 +52,7 @@ export const Autocomplete = () => {
           />
 
           {searchValue.length > 2 && products.length === 0 && !isLoading && (
-            <div className="flex items-center justify-center z-50 absolute top-full left-0 right-0 bg-white border-x border-b border-gray-300 rounded-b-md shadow-lg z-10 h-20 max-h-60 overflow-y-auto">
+            <div className="flex items-center justify-center absolute top-full left-0 right-0 bg-white border-x border-b border-gray-300 rounded-b-md shadow-lg z-10 h-20 max-h-60 overflow-y-auto">
               <p className="text-gray-600 text-center text-xl font-bold">
                 Aucun produit trouvé
               </p>
@@ -70,8 +70,8 @@ export const Autocomplete = () => {
             </div>
           )}
 
-          {products.length > 0 && (
-            <div className=" z-50 absolute top-full left-0 right-0 bg-white border-x border-b border-gray-300 rounded-b-md shadow-lg z-10 max-h-60 overflow-y-auto">
+          {searchValue.length > 2 && products.length > 0 && (
+            <div className="absolute top-full left-0 right-0 bg-white border-x border-b border-gray-300 rounded-b-md shadow-lg z-10 max-h-60 overflow-y-auto">
               {products.map((product) => (
                 <AutocompleteLine
                   key={product.id}
